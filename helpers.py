@@ -9,4 +9,8 @@ def draw_board(spots):
     print(board)
 
 def check_turn(turn):
+    """Returns the player of the current turn"""
     return 'O' if turn % 2 == 0 else 'X'
+
+def check_win(choice):
+    pass
